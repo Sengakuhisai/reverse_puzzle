@@ -1,0 +1,107 @@
+body{
+  font-family:"Courier New",sans-serif;
+  background: #eee;
+}
+
+.container{
+  width: 360px;
+  background: #fff;
+  height: 500px;
+  text-align: center;
+  padding:10px;
+  margin:20px auto;
+  user-select: none;
+  opacity: 1.0;
+}
+
+.conHidden{
+  opacity: 0;
+  user-select: none;
+  font-size: 0;
+  margin:0;
+  padding:0;
+}
+
+/* .coHidden>p{
+  font-size: 0;
+  margin:0;
+  padding:0;
+} */
+
+
+#gtitle{
+  font-size: 25px;
+  font-weight: bold;
+  color:#00eedd;
+}
+
+#panels>div{
+  width: 80px;
+  height: 80px;
+  padding:auto;
+  line-height: 80px;
+  margin:5px 5px;
+  font-size:40px;
+  font-weight: bold;
+  float:left;
+  cursor: pointer;
+}
+
+.bega>div{
+  pointer-events: none;
+}
+
+.gstarted>div{
+  pointer-events: auto;
+}
+
+.btn>div{
+  width: 80px;
+  height: 40px;
+  padding:auto;
+  line-height: 40px;
+  background: #ccc;
+  float:right;
+  margin:10 5px;
+  cursor: pointer;
+}
+
+.active{
+  background: #00ccee;
+}
+
+.inactive{
+  background: #fff;
+}
+
+.ongame{
+  opacity:0.5;
+}
+
+.gameclear{
+  width: 360px;
+  background: #fff;
+  height: 500px;
+  text-align: center;
+  padding:10px;
+  margin:0 auto;
+  pointer-events: auto;
+}
+
+#conlet{
+  color: #00ccdd;
+  font-size: 35px;
+  user-select: none;
+  font-weight: bold;
+}
+
+#restart{
+  background: #ddd;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  cursor:pointer;
+  padding:auto;
+  margin:0 auto;
+}
